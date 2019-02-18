@@ -1,0 +1,11 @@
+%Tarea2 OMAR FRANCISCO RODRÍGUEZ MORAES 1628226
+%Problema 1
+syms x a
+y = 2*x + a;
+soln = solve(y == 5, x)
+soln = subs(y, [a x],[1 2])
+%Problema 2
+syms x a b
+y = x^2 + a*x + b;
+res = solve(y == 0, x)
+res = subs (y, [a b], [3 2])
